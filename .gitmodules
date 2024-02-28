@@ -1,0 +1,3 @@
+[submodule "dep/EBCpp"]
+	path = dep/EBCpp
+	url = https://github.com/Tropby/EBCpp.git
