@@ -8,8 +8,15 @@ Sends ICMP requests to a range of ips.
 
 ## Usage
 
-MultiPing.exe [start ip] [end ip]
+MultiPing.exe startIp endIp [OPTION]
 
 MultiPing.exe 192.168.0.1 192.168.0.255
 
 ![Video of MultiPing](media/MultiPing.gif)
+
+### Command line options
+
+* --json = JSON output
+* -j = JSON output
+* --xml = XML output
+* -x = XML output

@@ -2,7 +2,8 @@
     "cmake.debugConfig": {
         "args": [
             "192.168.222.1",
-            "192.168.222.255"
+            "192.168.222.20",
+            "-j"
         ]
     },
     "files.associations": {

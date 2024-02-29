@@ -1,6 +1,8 @@
 #include <EBString.hpp>
 #include <EBTimer.hpp>
 #include <socket/raw/EBICMP.hpp>
+#include <json/EBJson.hpp>
+#include <xml/EBXml.hpp>
 
 using namespace EBCpp;
 
@@ -19,8 +21,14 @@ private:
     uint64_t lastIp;
 
     EBTimer timer;
-
     EBList<EBPtr<EBICMP>> pings;
 
     EB_SLOT(timeout);
+
+    EBJsonArray jsonResult;
+    EBXmlDocument xmlResult;
+
+    void checkForFinished();
+    bool isJsonResult();
+    bool isXmlResult();
 };
