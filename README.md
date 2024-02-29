@@ -15,8 +15,9 @@ MultiPing.exe 192.168.0.1 192.168.0.255
 ![Video of MultiPing](media/MultiPing.gif)
 
 ### Command line options
-
-* --json = JSON output
-* -j = JSON output
-* --xml = XML output
-* -x = XML output
+```bash
+--json    JSON output
+-j        JSON output
+--xml     XML output
+-x        XML output
+```
